@@ -1,9 +1,0 @@
-CREATE OR REPLACE PROCEDURE add_new_part(
-    new_part_name varchar
-    new_vendor_name varchar
-)
-AS $$
-DECLARE
-    v_part_id INT;
-    v_vendor_id INT;
-    
